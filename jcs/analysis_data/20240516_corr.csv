@@ -1,0 +1,10 @@
+variable_1,variable_2,correlation
+stock_price,stock_price,1.0000000000000000
+stock_price,debt_rt,-0.826737082258673
+stock_price,crrt_rt,0.811422193237057
+stock_price,smpl_crrt_rt,0.7938483768996470
+stock_price,cptl_rt,0.8523213830226230
+stock_price,intrs_cvrg_rt,0.8638796166169240
+stock_price,tot_ast_rtnd_ernng_rt,0.7545213824460780
+stock_price,ast_trn_rt,0.8063995908456480
+stock_price,opr_ast_trn_rt,-0.31212126296186300
