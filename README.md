@@ -60,20 +60,5 @@ Stock_Detail은 시장 지수, 국채금리, 커뮤니티 감정, 기업 재무�
 - 국가별 대표 지수 비교 및 상관계수 분석
 - 주요 시장 지표를 하나의 화면에서 탐색할 수 있는 Superset 대시보드 구성
 
-## Troubleshooting
-Snowflake에서 생성한 테이블을 Redshift로 적재하는 과정에서 포맷 차이, 권한, 네트워크 이슈로 직접 적재가 원활하지 않았습니다.
-
-프로젝트 일정이 짧았기 때문에 원인 규명에만 매달리기보다, Colab 환경에서 데이터를 변환한 뒤 Redshift로 직접 적재하는 우회 방식을 적용해 전체 일정을 지켰습니다.
-
 ## Outcome
 이 프로젝트를 통해 금리, 시장 심리, 재무지표, 주가 간 관계를 하나의 분석 흐름으로 연결했고, Superset 대시보드로 결과를 직관적으로 탐색할 수 있는 환경을 구축했습니다.
-
-## Future Improvements
-- 일 단위 데이터 자동 수집 및 적재 자동화
-- 지수 구성 기업, 산업 비중 등 추가 데이터 확장
-- 여러 계정의 S3 데이터를 하나의 Redshift 중심으로 연결하는 구조 개선
-- 데이터 검증 및 재현성 강화를 위한 파이프라인 고도화
-
-## Related Links
-- GitHub: https://github.com/MyProjects-Pikiss/Dev-course-Stock_Detail
-- TIL: https://www.notion.so/2024-05-13-2024-05-17-afef4a40499d45ab9c2e72f227082bf9?pvs=21
